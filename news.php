@@ -43,8 +43,10 @@ if($_GET["page"] == 1 && $_GET["page"] == $all_page){
   </tr>
   <?php do{ ?>
   <tr>
-    <td width="40%" align="left" style="background-color:#EEE;"><?=$c2["article_title"]?></td>
-    <td width="60%" align="left"><?=mb_substr($c2["article_cnt"],0,30,'utf-8')?></td>
+    <td width="40%" align="left" style="background-color:#EEE;" onclick="document.location.href='?do=news_look&lookno=<?=$c2["article_seq"]?>'">
+    <?=$c2["article_title"]?></td>
+    <td width="60%" align="left"onclick="document.location.href='?do=news_look&lookno=<?=$c2["article_seq"]?>'">
+    <?=mb_substr($c2["article_cnt"],0,30,'utf-8')?></td>
   </tr>
   <?php }while($c2 = mysqli_fetch_assoc($c1)) ?>
   <tr>

@@ -30,10 +30,13 @@
   $c1 = mysqli_query($link,$sql);
   $c2 = mysqli_fetch_assoc($c1);
   $all_page = ceil($row/$page_cnt);
-  if($_GET["page"] == 1){
+  if($_GET["page"] == 1 && $_GET["page"] == $all_page){
     $front_page = 1 ;
-    $next_page = $now_page + 1 ;
-  }else if($_GET["page"] == $all_page){
+    $next_page =  1 ;
+  }else if($_GET["page"] == 1){
+      $front_page = 1 ;
+      $next_page = $now_page + 1 ;
+  }else if($_GET["page"] == $all_page ){
     $front_page = $now_page - 1 ;
     $next_page =  $all_page;
   }else{
