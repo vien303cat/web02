@@ -57,7 +57,7 @@ if(!empty($_GET["do"])){
            	<a class="blo" href="#">分類網誌</a>
            	<a class="blo" href="?do=pop">最新文章管理</a>
            	<a class="blo" href="#">講座管理</a>
-           	<a class="blo" href="?do=que">問卷管理</a>	
+           	<a class="blo" href="?do=queadmin">問卷管理</a>	
 		<?php } ?>				  
 			   </div>
             <div class="hal" id="main">
