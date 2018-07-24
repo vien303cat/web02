@@ -10,9 +10,7 @@ if(!empty($_POST["q_name"])){
     for($i=0;$i<count($_POST["q_select"]);$i++){
         $sql = "insert into qa_select value(NULL,'$qaseq','".$_POST['q_select'][$i]."');";
         mysqli_query($link,$sql);
-        echo  $sql."<br>";
     }
-    
 }
 
 ?>
