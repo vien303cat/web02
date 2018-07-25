@@ -9,7 +9,8 @@ $web_list["news_look"]="news_look.php";
 $web_list["pop"]="pop.php";
 $web_list["poping"]="poping.php";
 $web_list["poping_look"]="poping_look.php";
-$web_list["know"]="";
+$web_list["know"]="know.php";
+$web_list["visit"]="visit.php";
 $web_list["que"]="que.php";
 $web_list["queadmin"]="queadmin.php";
 
@@ -28,7 +29,7 @@ $web_map_list["news"]="首頁>最新文章區";
 $web_map_list["news_look"]="首頁>最新文章區";
 $web_map_list["pop"]="首頁>人氣文章";
 $web_map_list["poping"]="首頁>人氣文章區";
-$web_map_list["know"]="";
+$web_map_list["know"]="首頁>投票結果";
 $web_map_list["que"]="首頁>問卷調查  ";
 $web_map_list["queadmin"]="首頁>問卷管理 ";
 

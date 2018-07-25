@@ -50,7 +50,7 @@ if(!empty($_GET["do"])){
     	    <a class="blo" href="?do=po">分類網誌</a>
            	<a class="blo" href="?do=news">最新文章</a>
            	<a class="blo" href="?do=poping">人氣文章區</a>
-           	<a class="blo" href="?do=know">講座訊息</a>
+           	<a class="blo" href="#">講座訊息</a>
            	<a class="blo" href="?do=que">問卷調查</a>
 		<?php }else{ ?><!--管理者介面-->
 			<a class="blo" href="?do=admin">帳號管理</a>
